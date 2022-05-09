@@ -72,10 +72,9 @@
 					<div class="fh5co-menu-2">
 						<a href="#" data-nav-section="events">Planes</a>
 						<a href="#" data-nav-section="reservation">Suscríbete</a>
-						<a href="#" data-nav-section="menu">Iniciar Session</a>
+						<a href="http://media.whollyplay.com:8080/" class="external">Iniciar Session</a>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 		<div id="fh5co-home" class="js-fullheight" data-section="home">
@@ -216,7 +215,7 @@
 							<h3>Wholly Infantil</h3>
 							<span class="fh5co-event-meta">USD 1/mes</span>
 							<p>Ahorra contratando contenido para los mas pequeños de la casa. Peliculas y series animadas.</p>
-							<p><a href="#" class="btn btn-primary btn-outline">Contratalo</a></p>
+							<p><a href="#fh5co-contact" class="btn btn-primary btn-outline">Contratalo</a></p>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -224,7 +223,7 @@
 							<h3>Wholly Plus</h3>
 							<span class="fh5co-event-meta">USD 2/mes</span>
 							<p>Tu plan popular, disfrutas de peliculas y series para cualquier ocacion.</p>
-							<p><a href="#" class="btn btn-primary btn-outline">Contratalo</a></p>
+							<p><a href="#fh5co-contact" class="btn btn-primary btn-outline">Contratalo</a></p>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -232,7 +231,7 @@
 							<h3>Wholly Plus Anual</h3>
 							<span class="fh5co-event-meta">USD 20/año</span>
 							<p>Ahorra y disfruta mas del contenido con la super promo anual.</p>
-							<p><a href="#" class="btn btn-primary btn-outline">Contratalo</a></p>
+							<p><a href="#fh5co-contact" class="btn btn-primary btn-outline">Contratalo</a></p>
 						</div>
 					</div>
 				</div>
@@ -264,32 +263,32 @@
 						<h3>Formulario</h3>
 						<form action="https://formsubmit.co/Whollyplay@gmail.com" method="POST">
 							<div class="form-group">
-								<input type="text" class="form-control" name='Nombre' id="Nombre" placeholder="Nombres...">
+								<input required type="text" class="form-control" name='Nombre' id="Nombre" placeholder="Nombres...">
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" name='Apellido' id="Apellido" placeholder="Apellidos...">
+								<input required type="text" class="form-control" name='Apellido' id="Apellido" placeholder="Apellidos...">
 							</div>
 							<div class="form-group">
-								<input type="email" class="form-control" name="email" placeholder="Email...">
+								<input required type="email" class="form-control" name="email" placeholder="Email...">
 							</div>
 							<div class="form-group">
-								<select class="form-control" name="Localidad" id="Localidad">
-									<option selected="true" disabled="disabled">Selecciona su localidad</option>
+								<select required class="form-control" name="Localidad" id="Localidad">
+									<option selected="true" disabled="disabled" value="">Selecciona su localidad</option>
 								<option value="Nueva Esparta">Nueva Esparta</option>
 								<option value="Caracas">Caracas</option>
 								<option value="Others">Others</option>
 								</select>
 							</div>
 							<div class="form-group">
-								<select class="form-control" name="Plan"  id="Plan">
-									<option selected="true" disabled="disabled">Selecciona su plan</option>
+								<select required class="form-control" name="Plan"  id="Plan">
+									<option selected="true" disabled="disabled" value="">Selecciona su plan</option>
 								<option value="Wholly Infantil">Wholly Infantil</option>
 								<option value="Wholly Plus">Wholly Plus</option>
 								<option value="Wholly Plus Anual">Wholly Plus Anual</option>
 								</select>
 							</div>
 							<div class="form-group ">
-								<input name="Telefono" id="Telefono" class="form-control" placeholder="Telefono" type="text">
+								<input required name="Telefono" id="Telefono" class="form-control" placeholder="Telefono" type="text">
 								<input type="hidden" name="_next" value="http://whollyplay.com/thanks.html">
 								<input type="hidden" name="_captcha" value="true">
 								<input type="hidden" name="_template" value="table">
@@ -308,7 +307,7 @@
 		<div class="container">
 			<div class="row row-padded">
 				<div class="col-md-12 text-center">
-					<p class="to-animate">&copy; 2022 Copyrigth Whollyplay.</p>
+					<p class="to-animate">&copy; 2022 Copyright Whollyplay.</p>
 					<p class="text-center to-animate"><a href="#" class="js-gotop">Ir Arriba</a></p>
 				</div>
 			</div>
